@@ -225,7 +225,7 @@
 		78E744F4147A64850015F465 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Object Computing Solutions LTD";
 			};
 			buildConfigurationList = 78E744F7147A64850015F465 /* Build configuration list for PBXProject "Punch!" */;
