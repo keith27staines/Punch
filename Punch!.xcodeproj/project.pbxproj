@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781B52A8148134CC00F9E3DF /* Sound12.aif in Resources */ = {isa = PBXBuildFile; fileRef = 781B52A7148134CC00F9E3DF /* Sound12.aif */; };
+		783320D115C2C507000D8C15 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 783320D015C2C507000D8C15 /* .gitignore */; };
+		78E74502147A64850015F465 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E74501147A64850015F465 /* UIKit.framework */; };
+		78E74504147A64850015F465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E74503147A64850015F465 /* Foundation.framework */; };
+		78E74506147A64850015F465 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E74505147A64850015F465 /* CoreGraphics.framework */; };
+		78E7450C147A64850015F465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78E7450A147A64850015F465 /* InfoPlist.strings */; };
+		78E7450E147A64850015F465 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7450D147A64850015F465 /* main.m */; };
+		78E74512147A64850015F465 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74511147A64850015F465 /* AppDelegate.m */; };
+		78E74515147A64850015F465 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E74513147A64850015F465 /* MainStoryboard.storyboard */; };
+		78E74518147A64850015F465 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74517147A64850015F465 /* ViewController.m */; };
+		78E7451F147A711F0015F465 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7451E147A711F0015F465 /* CoreMotion.framework */; };
+		78E74525147AB2260015F465 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E74524147AB2260015F465 /* AudioToolbox.framework */; };
+		78E7452D147BA4140015F465 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7452C147BA4140015F465 /* QuartzCore.framework */; };
+		78E74531147BB6E40015F465 /* x264.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78E74530147BB6E40015F465 /* x264.caf */; };
+		78E74536147BB9580015F465 /* PRKSVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74535147BB9580015F465 /* PRKSVector.m */; };
+		78E74539147BD09B0015F465 /* PRKSList.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74538147BD09B0015F465 /* PRKSList.m */; };
+		78E7453C147BD0CC0015F465 /* PRKSListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7453B147BD0CC0015F465 /* PRKSListNode.m */; };
+		78E74540147C02390015F465 /* PRKSFiniteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7453F147C02390015F465 /* PRKSFiniteList.m */; };
+		78E74543147C1D580015F465 /* PRKSPunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74542147C1D580015F465 /* PRKSPunch.m */; };
+		78E7454A147CEB780015F465 /* PRKSIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74549147CEB780015F465 /* PRKSIntegrator.m */; };
+		78E7454D147D21D80015F465 /* PRKSDynamics.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7454C147D21D80015F465 /* PRKSDynamics.m */; };
+		78E74550147F9FA90015F465 /* PRKSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E7454F147F9FA90015F465 /* PRKSMatrix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		781B52A7148134CC00F9E3DF /* Sound12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound12.aif; sourceTree = "<group>"; };
+		783320D015C2C507000D8C15 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		78E744FD147A64850015F465 /* Punch!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Punch!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E74501147A64850015F465 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78E74503147A64850015F465 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78E74505147A64850015F465 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78E74509147A64850015F465 /* Punch!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Punch!-Info.plist"; sourceTree = "<group>"; };
+		78E7450B147A64850015F465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78E7450D147A64850015F465 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78E7450F147A64850015F465 /* Punch!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Punch!-Prefix.pch"; sourceTree = "<group>"; };
+		78E74510147A64850015F465 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78E74511147A64850015F465 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78E74514147A64850015F465 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		78E74516147A64850015F465 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78E74517147A64850015F465 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78E7451E147A711F0015F465 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		78E74524147AB2260015F465 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		78E7452C147BA4140015F465 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78E74530147BB6E40015F465 /* x264.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = x264.caf; sourceTree = "<group>"; };
+		78E74534147BB9580015F465 /* PRKSVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSVector.h; sourceTree = "<group>"; };
+		78E74535147BB9580015F465 /* PRKSVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSVector.m; sourceTree = "<group>"; };
+		78E74537147BD09B0015F465 /* PRKSList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSList.h; sourceTree = "<group>"; };
+		78E74538147BD09B0015F465 /* PRKSList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSList.m; sourceTree = "<group>"; };
+		78E7453A147BD0CC0015F465 /* PRKSListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSListNode.h; sourceTree = "<group>"; };
+		78E7453B147BD0CC0015F465 /* PRKSListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSListNode.m; sourceTree = "<group>"; };
+		78E7453E147C02390015F465 /* PRKSFiniteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSFiniteList.h; sourceTree = "<group>"; };
+		78E7453F147C02390015F465 /* PRKSFiniteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSFiniteList.m; sourceTree = "<group>"; };
+		78E74541147C1D580015F465 /* PRKSPunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSPunch.h; sourceTree = "<group>"; };
+		78E74542147C1D580015F465 /* PRKSPunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSPunch.m; sourceTree = "<group>"; };
+		78E74548147CEB780015F465 /* PRKSIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSIntegrator.h; sourceTree = "<group>"; };
+		78E74549147CEB780015F465 /* PRKSIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSIntegrator.m; sourceTree = "<group>"; };
+		78E7454B147D21D80015F465 /* PRKSDynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSDynamics.h; sourceTree = "<group>"; };
+		78E7454C147D21D80015F465 /* PRKSDynamics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSDynamics.m; sourceTree = "<group>"; };
+		78E7454E147F9FA90015F465 /* PRKSMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRKSMatrix.h; sourceTree = "<group>"; };
+		78E7454F147F9FA90015F465 /* PRKSMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRKSMatrix.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E744FA147A64850015F465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E7452D147BA4140015F465 /* QuartzCore.framework in Frameworks */,
+				78E74525147AB2260015F465 /* AudioToolbox.framework in Frameworks */,
+				78E7451F147A711F0015F465 /* CoreMotion.framework in Frameworks */,
+				78E74502147A64850015F465 /* UIKit.framework in Frameworks */,
+				78E74504147A64850015F465 /* Foundation.framework in Frameworks */,
+				78E74506147A64850015F465 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78E744F2147A64850015F465 = {
+			isa = PBXGroup;
+			children = (
+				783320D015C2C507000D8C15 /* .gitignore */,
+				78E74507147A64850015F465 /* Punch! */,
+				78E74500147A64850015F465 /* Frameworks */,
+				78E744FE147A64850015F465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78E744FE147A64850015F465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E744FD147A64850015F465 /* Punch!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E74500147A64850015F465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E74524147AB2260015F465 /* AudioToolbox.framework */,
+				78E7451E147A711F0015F465 /* CoreMotion.framework */,
+				78E74503147A64850015F465 /* Foundation.framework */,
+				78E7452C147BA4140015F465 /* QuartzCore.framework */,
+				78E74501147A64850015F465 /* UIKit.framework */,
+				78E74505147A64850015F465 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78E74507147A64850015F465 /* Punch! */ = {
+			isa = PBXGroup;
+			children = (
+				78E74532147BB9260015F465 /* classes */,
+				78E74510147A64850015F465 /* AppDelegate.h */,
+				78E74511147A64850015F465 /* AppDelegate.m */,
+				78E74513147A64850015F465 /* MainStoryboard.storyboard */,
+				78E74516147A64850015F465 /* ViewController.h */,
+				78E74517147A64850015F465 /* ViewController.m */,
+				78E74508147A64850015F465 /* Supporting Files */,
+			);
+			path = "Punch!";
+			sourceTree = "<group>";
+		};
+		78E74508147A64850015F465 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78E74520147AAA2C0015F465 /* Assets */,
+				78E74509147A64850015F465 /* Punch!-Info.plist */,
+				78E7450A147A64850015F465 /* InfoPlist.strings */,
+				78E7450D147A64850015F465 /* main.m */,
+				78E7450F147A64850015F465 /* Punch!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78E74520147AAA2C0015F465 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				78E74521147AAA3E0015F465 /* SoundFX */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		78E74521147AAA3E0015F465 /* SoundFX */ = {
+			isa = PBXGroup;
+			children = (
+				781B52A7148134CC00F9E3DF /* Sound12.aif */,
+				78E74530147BB6E40015F465 /* x264.caf */,
+			);
+			name = SoundFX;
+			sourceTree = "<group>";
+		};
+		78E74532147BB9260015F465 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				78E7453D147C01CD0015F465 /* Data structures */,
+				78E74533147BB9330015F465 /* Maths */,
+				78E74541147C1D580015F465 /* PRKSPunch.h */,
+				78E74542147C1D580015F465 /* PRKSPunch.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		78E74533147BB9330015F465 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				78E74534147BB9580015F465 /* PRKSVector.h */,
+				78E74535147BB9580015F465 /* PRKSVector.m */,
+				78E74548147CEB780015F465 /* PRKSIntegrator.h */,
+				78E74549147CEB780015F465 /* PRKSIntegrator.m */,
+				78E7454B147D21D80015F465 /* PRKSDynamics.h */,
+				78E7454C147D21D80015F465 /* PRKSDynamics.m */,
+				78E7454E147F9FA90015F465 /* PRKSMatrix.h */,
+				78E7454F147F9FA90015F465 /* PRKSMatrix.m */,
+			);
+			name = Maths;
+			sourceTree = "<group>";
+		};
+		78E7453D147C01CD0015F465 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+				78E74537147BD09B0015F465 /* PRKSList.h */,
+				78E74538147BD09B0015F465 /* PRKSList.m */,
+				78E7453A147BD0CC0015F465 /* PRKSListNode.h */,
+				78E7453B147BD0CC0015F465 /* PRKSListNode.m */,
+				78E7453E147C02390015F465 /* PRKSFiniteList.h */,
+				78E7453F147C02390015F465 /* PRKSFiniteList.m */,
+			);
+			name = "Data structures";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E744FC147A64850015F465 /* Punch! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E7451B147A64850015F465 /* Build configuration list for PBXNativeTarget "Punch!" */;
+			buildPhases = (
+				78E744F9147A64850015F465 /* Sources */,
+				78E744FA147A64850015F465 /* Frameworks */,
+				78E744FB147A64850015F465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Punch!";
+			productName = "Punch!";
+			productReference = 78E744FD147A64850015F465 /* Punch!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78E744F4147A64850015F465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Object Computing Solutions LTD";
+			};
+			buildConfigurationList = 78E744F7147A64850015F465 /* Build configuration list for PBXProject "Punch!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78E744F2147A64850015F465;
+			productRefGroup = 78E744FE147A64850015F465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E744FC147A64850015F465 /* Punch! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E744FB147A64850015F465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E7450C147A64850015F465 /* InfoPlist.strings in Resources */,
+				78E74515147A64850015F465 /* MainStoryboard.storyboard in Resources */,
+				78E74531147BB6E40015F465 /* x264.caf in Resources */,
+				781B52A8148134CC00F9E3DF /* Sound12.aif in Resources */,
+				783320D115C2C507000D8C15 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78E744F9147A64850015F465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E7450E147A64850015F465 /* main.m in Sources */,
+				78E74512147A64850015F465 /* AppDelegate.m in Sources */,
+				78E74518147A64850015F465 /* ViewController.m in Sources */,
+				78E74536147BB9580015F465 /* PRKSVector.m in Sources */,
+				78E74539147BD09B0015F465 /* PRKSList.m in Sources */,
+				78E7453C147BD0CC0015F465 /* PRKSListNode.m in Sources */,
+				78E74540147C02390015F465 /* PRKSFiniteList.m in Sources */,
+				78E74543147C1D580015F465 /* PRKSPunch.m in Sources */,
+				78E7454A147CEB780015F465 /* PRKSIntegrator.m in Sources */,
+				78E7454D147D21D80015F465 /* PRKSDynamics.m in Sources */,
+				78E74550147F9FA90015F465 /* PRKSMatrix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78E7450A147A64850015F465 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E7450B147A64850015F465 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78E74513147A64850015F465 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E74514147A64850015F465 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78E74519147A64850015F465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78E7451A147A64850015F465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E7451C147A64850015F465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Punch!/Punch!-Prefix.pch";
+				INFOPLIST_FILE = "Punch!/Punch!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78E7451D147A64850015F465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Punch!/Punch!-Prefix.pch";
+				INFOPLIST_FILE = "Punch!/Punch!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78E744F7147A64850015F465 /* Build configuration list for PBXProject "Punch!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E74519147A64850015F465 /* Debug */,
+				78E7451A147A64850015F465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E7451B147A64850015F465 /* Build configuration list for PBXNativeTarget "Punch!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E7451C147A64850015F465 /* Debug */,
+				78E7451D147A64850015F465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78E744F4147A64850015F465 /* Project object */;
+}
